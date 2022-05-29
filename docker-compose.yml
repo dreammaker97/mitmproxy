@@ -7,4 +7,4 @@ services:
       - "4081:4081/tcp"
     hostname: mitmproxy
     container_name: mitmproxy
-    command: mitmweb --mode transparent --showhost --listen-port 4080 --web-host 0.0.0.0 --web-port 4081
+    command: mitmweb --showhost --listen-port 4080 --web-host 0.0.0.0 --web-port 4081
